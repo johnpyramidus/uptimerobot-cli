@@ -6,25 +6,11 @@ class AlertContact(object):
     class Type:
         SMS = 1
         EMAIL = 2
-        TWITTER = 3
-        BOXCAR = 4
-        WEBHOOK = 5
-        PUSHBULLET = 6
-        ZAPIER = 7
-        PUSHOVER = 9
-        HIPCHAT = 10
         SLACK = 11
 
     TYPES = {
         Type.SMS: "sms",
         Type.EMAIL: "email",
-        Type.TWITTER: "twitter",
-        Type.BOXCAR: "boxcar",
-        Type.WEBHOOK: "web-hook",
-        Type.PUSHBULLET: "pushbullet",
-        Type.ZAPIER: "zapier",
-        Type.PUSHOVER: "pushover",
-        Type.HIPCHAT: "hipchat",
         Type.SLACK: "slack",
     }
 
